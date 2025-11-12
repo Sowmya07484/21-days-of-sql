@@ -13,8 +13,6 @@ I’m already familiar with SQL, but I’ve started this 21-day course to stay c
 - It works with almost all database systems like MySQL, PostgreSQL, and Oracle.  
 - SQL is not case-sensitive — SELECT, select, and Select all mean the same.  
 
----
-
 ### 🔍 SELECT Statement
 The SELECT statement is used to fetch data from a database.  
 It allows you to retrieve specific columns or all columns from one or more tables.
@@ -33,8 +31,6 @@ FROM table_name;
 - Realized how WHERE makes SELECT statements more powerful and precise.  
 - The combination of these operators helps narrow down results easily.  
 
----
-
 ### 🔍 WHERE Clause
 The WHERE clause is used to filter rows that meet specific conditions.
 
@@ -42,4 +38,19 @@ Syntax:
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
+
+## 🌿 Day 3 – Sorting Data with ORDER BY
+### 💡 What I Learnt Today
+
+-ORDER BY is used to display data in a particular order.
+-it is of two types ascending and descending order. In this the keywords ASC and DESC are used. 
+-also that ORDER BY can be used in default to obtain ascending order without using ASC.
+-it camn be used in one or more columns.
+-it is used for readability of results.
+
+Syntax:
+SELECT * FROM table_name
+ORDER BY column_name;
+#SQL #LearningJourney #21DaysOfSQL #SQLWithIDC 
+
 
