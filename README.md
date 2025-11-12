@@ -52,5 +52,21 @@ Syntax:
 SELECT * FROM table_name
 ORDER BY column_name;
 #SQL #LearningJourney #21DaysOfSQL #SQLWithIDC 
+---
 
+## 🌿 Day 4 – LIMIT and OFFSET
+### 💡 What I Learnt Today
+
+- Today i learnt about pagination. It is used to obtain data from large databases for improving readability.
+- In pagination limit and offset are used.
+- LIMIT is used to define the number of records to be given.
+- OFFSET is used to skip a certain no. of records.
+- We can add ORDER BY kewyword with LIMIT when sorting the result in an ascending or descending manner.
+
+  Syntax:
+  SELECT * FROM table_name
+  ORDER BY column_name
+  LIMIT no.
+  OFFSET no;
+  #SQL #LearningJourney #21DaysOfSQL #SQLWithIDC
 
