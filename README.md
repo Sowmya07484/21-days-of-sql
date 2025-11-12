@@ -42,11 +42,11 @@ WHERE condition;
 ## 🌿 Day 3 – Sorting Data with ORDER BY
 ### 💡 What I Learnt Today
 
--ORDER BY is used to display data in a particular order.
--it is of two types ascending and descending order. In this the keywords ASC and DESC are used. 
--also that ORDER BY can be used in default to obtain ascending order without using ASC.
--it camn be used in one or more columns.
--it is used for readability of results.
+- ORDER BY is used to display data in a particular order.
+- It is of two types ascending and descending order. In this the keywords ASC and DESC are used. 
+- Also that ORDER BY can be used in default to obtain ascending order without using ASC.
+- It camn be used in one or more columns.
+- It is used for readability of results.
 
 Syntax:
 SELECT * FROM table_name
